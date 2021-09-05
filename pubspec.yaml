@@ -33,6 +33,9 @@ dependencies:
   shelf_router: ^1.1.1
   shelf_static: ^1.1.0
   shelf_virtual_directory: ^3.0.0
+  http: ^0.13.3
+  url_launcher: ^6.0.10
+  shared_preferences: ^2.0.7
 
 dev_dependencies:
   flutter_test:

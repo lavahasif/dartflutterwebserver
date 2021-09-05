@@ -12,41 +12,94 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
-<h1>Hello, shelf_static!</h1>
-<img src='img.png' alt='Dart logo' width='152' height='152'>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Files</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+            aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="/home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/files">File</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/upload">Upload</a>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+
+
 <div class="container">
-    <div>
+    <ul>
 
-        <a href="/home"><p>
-            Home
-        </p></a>
-    </div>
-    <div>
+        <li>
+            <div>
 
-        <a href="/i"><p>Image
-        </p></a>
-    </div>
-    <div>
+                <a href="/home"><p>
+                    Home
+                </p></a>
+            </div></li>
+        <li>
+            <div>
 
-        <a href="/bim"> <p>Bootstrap
-        </p></a>
-    </div>
-    <div>
+                <a href="/i"><p>Image
+                </p></a>
+            </div></li>
+        <li>
+            <div>
 
-        <a href="/bootstrap"> <p>Bootstrap
-        </p></a>
-    </div>
-    <div>
+                <a href="/bim"> <p>Bootstrap
+                </p></a>
+            </div></li>
+        <li>
+            <div>
 
-        <a href="/n404"> <p>404
-        </p></a>
-    </div>
-    <div>
+                <a href="/bootstrap"><p>Bootstrap
+                </p></a>
+            </div></li>
+        <li>
+            <div>
 
-        <a href="/api/hello"><p>Api
-        </p></a>
-    </div>
+                <a href="/n404"><p>404
+                </p></a>
+            </div></li>
+        <li>
+            <div>
 
+                <a href="/files"><p>My File</p></a>
+            </div></li>
+        <li>
+            <div>
+
+                <a href="/upload"><p>upload File
+                </p></a>
+            </div></li>
+        <li>
+            <div>
+
+                <a href="/api/uploadtest"><p>Testing upload Api
+                </p></a>
+            </div></li>
+        <li>
+            <div>
+
+                <a href="/api/set/12"><p>Api
+                </p></a>
+            </div></li>
+
+    </ul>
+</div>
+<div class="text-center">
+
+    <img src='img.png' alt='Dart logo' width='152' height='152'>
 </div>
 </body>
 </html>
